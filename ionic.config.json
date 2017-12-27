@@ -1,0 +1,8 @@
+{
+  "name": "photo-test",
+  "app_id": "238750fe",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
