@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
-declare var Caman: any;
 var PICTURE_HEIGHT = 1080;
 var PICTURE_WIDTH = 1920;
 
@@ -13,14 +12,6 @@ var PICTURE_WIDTH = 1920;
 export class HomePage {
 
   constructor(public navCtrl: NavController) {
-
-  }
-
-  addFilter(){
-  	Caman('#new', function () {
-    this.sinCity();
-    this.render();
-  })
 
   }
 
